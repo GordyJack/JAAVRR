@@ -16,14 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.gordyjack.jaavrr.JAAVRR"
+			"net.gordyjack.jaavrr.JAAVRR"
 		],
 		"fabric-datagen": [
-          "net.gordyjack.jaavrr.JAAVRRDataGenerator"
+			"net.gordyjack.jaavrr.JAAVRRDataGenerator"
 		]
 	},
 	"mixins": [
-		"jaavrr.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
